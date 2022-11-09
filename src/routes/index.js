@@ -6,8 +6,11 @@ const orderRouter = require("./order");
 const couponRouter = require("./coupon");
 const categoryListRouter = require("./categoryList");
 
+const testapp = (req, res) => {
+  res.send({ msg: "Sucess" });
+};
+
 const routesInit = (app) => {
-  
   app.use("/product", ProductRouter);
   app.use("/user", userRouter);
   app.use("/category", categoryRouter);
@@ -15,6 +18,7 @@ const routesInit = (app) => {
   app.use("/order", orderRouter);
   app.use("/coupon", couponRouter);
   app.use("/category-list", categoryListRouter);
+  app.use("/test", testapp);
   return app;
 };
 
