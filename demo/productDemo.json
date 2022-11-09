@@ -1,0 +1,65 @@
+{
+  "products": [
+    {
+      "title": "one",
+      "description": "Products for all in one category.",
+      "imageUrl": "https://i.ibb.co/NmrZkfz/0-C6-A9451-300x300.jpg",
+      "category": "seating",
+      "subCategory": "bestseller",
+      "variants": [
+        {
+          "displayImage": "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg",
+          "thumbnailImages": [
+            "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg",
+            "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg"
+          ],
+          "color": "red",
+          "price": 500,
+          "totalStock": 50,
+          "inStock": true,
+          "qty": 5,
+          "description": "Products for all in one category."
+        },
+        {
+          "displayImage": "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg",
+          "thumbnailImages": [
+            "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg",
+            "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg"
+          ],
+          "color": "black",
+          "price": 700,
+          "totalStock": 40,
+          "inStock": true,
+          "qty": 1,
+          "description": "Products for all in one category."
+        }
+      ],
+      "inStock": true,
+      "isBestSeller": false
+    },
+    {
+      "title": "two",
+      "description": "Products for all in one category.",
+      "imageUrl": "https://i.ibb.co/NmrZkfz/0-C6-A9451-300x300.jpg",
+      "category": "seating",
+      "subCategory": "new",
+      "variants": [
+        {
+          "displayImage": "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg",
+          "thumbnailImages": [
+            "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg",
+            "https://i.ibb.co/G0H50g0/photo-1505740420928-5e560c06d30e.jpg"
+          ],
+          "color": "blue",
+          "price": 900,
+          "totalStock": 20,
+          "inStock": true,
+          "qty": 4,
+          "description": "Products for all in one category."
+        }
+      ],
+      "inStock": true,
+      "isBestSeller": false
+    }
+  ]
+}
