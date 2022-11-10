@@ -5,12 +5,14 @@ const bannerRouter = require("./banner");
 const orderRouter = require("./order");
 const couponRouter = require("./coupon");
 const categoryListRouter = require("./categoryList");
+const cors = require("cors");
 
 const testapp = (req, res) => {
   res.send({ msg: "Sucess" });
 };
 
 const routesInit = (app) => {
+  app.use(cors());
   app.use("/product", ProductRouter);
   app.use("/user", userRouter);
   app.use("/category", categoryRouter);
